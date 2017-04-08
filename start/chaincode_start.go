@@ -33,7 +33,7 @@ type SimpleChaincode struct {
 func main() {
 	err := shim.Start(new(SimpleChaincode))
 	if err != nil {
-		fmt.Printf("Error iniciando simple chaincode: %s", err)
+		fmt.Printf("Error iniciando chaincode simple: %s", err)
 	}
 }
 
